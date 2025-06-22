@@ -1,0 +1,13 @@
+{
+  "drives": [
+    {
+      "name": "alist.jar",
+      "search": true,
+      "searchable": true,
+       "server": "https://al.chirmyram.com/dav",
+      "user": "alist",
+      "pass": "alist"
+    }
+  ],
+  "danmu":true
+}
