@@ -127,6 +127,7 @@
 				"ratio": 1.1
 			}
 		},
+			
 		{
 			"key":"bili",
 			"name":"B站 | Bili[jar]",
@@ -236,6 +237,28 @@
 			"timeout": 60,
 			"ext": "./lib/tokenm.json$$$https://mihdr.top/$$$noproxy$$$1$$$./lib/wogg.json$$$ZHIZHEN"
 		},
+		{
+      "key": "双星",
+      "name": "☁️双星┃4K",
+      "type": 3,
+      "api": "csp_Star2Guard",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 0,
+	  "jar":"./614QA8vJ.png;md5;0feab5a9c7fb7b34b734adcda25e98a6",
+	  "timeout": 25
+    },
+    {
+      "key": "云集",
+      "name": "☁️云集┃4K",
+      "type": 3,
+      "api": "csp_YunJiGuard",
+      "quickSearch": 1,
+      "changeable": 1,
+      "filterable": 1,
+	  "jar":"./614QA8vJ.png;md5;0feab5a9c7fb7b34b734adcda25e98a6",
+      "timeout": 25
+    },
 		{"key":"Hmxz","name":"☁海绵|网盘","type":3,"api":"csp_Hmxz","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://www.haimianxz.com/$$$noproxy$$$1$$$./lib/hmxz.txt$$$HMXZ",
 			"style": {
 				"type": "list",
@@ -451,6 +474,28 @@
 		"jar":"https://fs-im-kefu.7moor-fs1.com/ly/4d2c3f00-7d4c-11e5-af15-41bf63ae4ea0/1750215028054/0618.jpg;md5;9b8e295927dccaf6f96cd9008174fe11",
 		"ext": "https://cnb.cool/xiaomideyun/xiaomideyun/-/git/raw/main/cs.txt"
 	},
+	{
+      "key": "文才",
+      "name": "文才┃1080P",
+      "type": 3,
+      "api": "csp_JpysGuard",
+      "searchable": 1,
+      "quickSearch": 1,
+	  "jar":"./614QA8vJ.png;md5;0feab5a9c7fb7b34b734adcda25e98a6",
+      "filterable": 1,
+      "timeout": 10
+    },
+    {
+      "key": "csp_XYQHiker_修罗影视",
+      "name": "修罗┃1080P",
+      "type": 3,
+      "api": "csp_XYQHiker",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+	   "jar":"./custom_spider.jar;md5;6f86d70c110eb76ad81084beeffaa198",
+      "ext": "./js/哔嘀影视.json"
+    },
 		{
       "key": "公公",
       "name": "公共┃1080P",
@@ -521,18 +566,6 @@
             "filterable": 1,
             "changeable": 1
         },
-        
-{
-  "key": "sz",
-  "name": "双子┃推送",
-  "type": 3,
-  "api": "./api/drpy2.min.js",
-  "searchable": 1,
-  "quickSearch": 1,
-  "changeable": 1,
-  "filterable": 1,
-  "ext": "./js/双子星.js"
-},
 {  
        "key": "彼岸",
        "name": "🍃彼岸┃采集",
@@ -603,7 +636,17 @@
 		},
 	
 		{"key":"PanSearch","name":"PanSearch|网盘搜索","type":3,"api":"csp_PanSearch","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$null$$$proxy"},
-	
+	 {
+      "key": "度搜",
+      "name": "百度┃搜索",
+      "type": 3,
+      "api": "csp_BdxdGuard",
+      "searchable": 1,
+      "filterable": 1,
+      "changeable": 0,
+	  "jar":"./614QA8vJ.png;md5;0feab5a9c7fb7b34b734adcda25e98a6",
+      "timeout": 25
+    },
 		{"key":"Panta","name":"盘Ta|网盘","type":3,"api":"csp_Panta","quickSearch":1, "changeable":1, "filterable":1, "timeout":60, "ext":"./lib/tokenm.json$$$https://www.91panta.cn/$$$null$$$1$$$./lib/panta.txt$$$PANTA",
 			"style": {
 				"type": "list",
@@ -621,7 +664,6 @@
             "filterable": 1,
             "changeable": 1
         },
-	
 		{"key": "push_agent","name": "推送","type": 3,"api": "csp_Push","changeable":0, "timeout":30, "ext":"./lib/tokenm.json"}
 	
 		
