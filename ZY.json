@@ -650,14 +650,6 @@
 				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
 			},
 			{
-				"name": "国际直播",
-				"type": 0,
-				"url": "https://d.kstore.dev/download/9071/%E5%85%A8%E7%BD%91%E9%80%9A%E9%99%90%E6%97%B6.txt",
-				"ua": "okhttp/3.15",
-				"epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
-				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
-			},
-			{
 				"name": "Aktv",
 				"type": 0,
 				"url": "https://aktv.space/live.m3u",
