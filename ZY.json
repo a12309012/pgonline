@@ -1,6 +1,6 @@
 {
 	"spider":"./pg.jar",
-	"logo": "https://registry.npmmirror.com/@lobehub/icons-static-png/latest/files/dark/poe-color.png",
+	"logo": "./logo.png",
 	"sites":[
 		{
 			"key": "豆瓣",
