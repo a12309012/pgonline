@@ -367,7 +367,27 @@
             "filterable": 1,
             "changeable": 1
         },
+{
+            "key": "PP.py",
+            "name": "金牌影视",
+            "type": 3,
+            "api": "./py/py_金牌.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1
+        },
 
+        {
+            "key": "cs",
+            "name": "爱电影",
+            "type": 3,
+            "api": "./py/爱电影.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 1
+        },
 		{
             "key": "小苹果APP.py",
             "name": "小苹果",
