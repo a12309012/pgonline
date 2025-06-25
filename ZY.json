@@ -224,17 +224,15 @@
 			"timeout": 60,
 			"ext": "./lib/tokenm.json$$$https://mihdr.top/$$$noproxy$$$1$$$./lib/wogg.json$$$ZHIZHEN"
 		},
-		{
-      "key": "双星",
-      "name": "☁️双星┃4K",
-      "type": 3,
-      "api": "csp_Star2Guard",
-      "searchable": 1,
-      "filterable": 1,
-      "changeable": 0,
-	  "jar":"./614QA8vJ.png;md5;0feab5a9c7fb7b34b734adcda25e98a6",
-	  "timeout": 25
-    },
+		{  
+       "key": "sz",
+       "name": "☁️双子┃推送",
+       "type": 3,
+       "api": "./api/drpy2.min.js",                "searchable": 1,
+       "quickSearch": 1,
+        "changeable": 1,
+       "filterable": 1,
+       "ext": "./js/双子星.js"},
     {
       "key": "云集",
       "name": "☁️云集┃4K",
