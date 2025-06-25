@@ -1,6 +1,6 @@
 {
 	"spider":"./pg.jar",
-	"logo": "./logo.png",
+	"logo": "./poe-color.svg",
 	"sites":[
 		{
 			"key": "豆瓣",
