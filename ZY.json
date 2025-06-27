@@ -68,7 +68,7 @@
 		{"key":"WebDAV","name":"WebDAV","type":3,"api":"csp_WebDAV","searchable":1,"filterable":1,"changeable":1,"timeout":60,
 			"playerType": 2,
 			"ext":"./lib/webdav.json"},
-		{"key":"AList","name":"网盘|Alist[jar]","type":3,"api":"csp_AList","searchable":1,"filterable":1,"changeable":1,"timeout":60,
+	{"key":"AList","name":"网盘|Alist[jar]","type":3,"api":"csp_AList","searchable":1,"filterable":1,"changeable":1,"timeout":60,
 			"playerType": 2,
 			"ext":"./lib/alistjar.json"},
 		{"key":"PushShare","name":"我的资源分享","type":3, "api":"csp_PushShare","searchable":1,"quickSearch":1, "changeable":1, "filterable":0, "timeout":60, "ext":"./lib/tokenm.json$$$./lib/pushshare.txt$$$db$$$1",
@@ -225,7 +225,7 @@
 		},
     {
       "key": "云集",
-      "name": "☁️云集┃4K",
+      "name": "☁️云集|网盘",
       "type": 3,
       "api": "csp_YunJiGuard",
       "quickSearch": 1,
@@ -289,6 +289,37 @@
 			"api": "https://13826.kstore.space/mioaying.py"
 		},
 		{
+            "key": "烟雨笙歌",
+            "name": "笙歌┃4K",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet2",
+            "jar": "./jars/config.jar",
+            "ext": {
+                "url": "https://qjappcms.ll4k.xyz",
+                "dataKey": "1yGA85sJ5STtE7uj",
+                "dataIv": "1yGA85sJ5STtE7uj",
+                "deviceId": "",
+                "version": "50000"
+            }
+        },
+        
+    {
+            "key": "醉梦前尘",
+            "name": "前尘┃4K",
+            "type": 3,
+            "quickSearch": 1,
+            "api": "csp_AppGet2",
+            "jar": "./jars/config.jar",
+            "ext": {
+                "url": "http://122.228.193.2:9988",
+                "dataKey": "ca94b06ca359d80e",
+                "dataIv": "ca94b06ca359d80e",
+                "deviceId": "",
+                "version": "120"
+            }
+        },
+		{
 		"key": "追忆",
 		"name": "追忆┃4K",
 		"type": 3,
@@ -326,6 +357,7 @@
       "playerType": 2,
       "ext": "eaHR0cHM6Ly9kLmRjbW92aWUudG9w"
     },
+    
     {
       "key": "csp_XYQHiker_修罗影视",
       "name": "修罗┃1080P",
