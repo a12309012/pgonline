@@ -702,21 +702,16 @@
 				"epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
 				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
 			},
-			{
-				"name": "全网通直播",
+				{
+				"name": "凤凰直播",
 				"type": 0,
-				"url": "https://d.kstore.dev/download/13045/%E6%B8%AF%E6%BE%B3%E5%8F%B0%E5%A4%96.txt",
+				"url": "https://tv.920410.dpdns.org/fhtv.txt",
 				"ua": "okhttp/3.15",
 				"epg": "http://127.0.0.1:10079/p/0/proxy/http://epg.112114.xyz/?ch={name}&date={date}",
-				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png",
-				"catchup": {
-					"type": "append",
-					"source": "?livemode=4&starttime=${(b)yyyyMMdd'T'HHmm}00.00Z&endtime=${(e)yyyyMMdd'T'HHmm}00.00Z"
-				}
+				"logo": "http://127.0.0.1:10079/p/0/proxy/https://epg.112114.xyz/logo/{name}.png"
 			},
-			
 			{
-				"name": "FMM咪咕.m3u",
+				"name": "体育赛事",
 				"type": 0,
 				"url": "https://www.freetv.top/mgevent.m3u",
 				
